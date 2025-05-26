@@ -46,7 +46,7 @@ export default function Home() {
         </section>
 
         <section className={styles.education}>
-          <h2>Education</h2>
+          <h2>📚 Education</h2>
           <div className={styles.educationItem}>
             <h3>Arol.dev DevOps Bootcamp</h3>
             <p>2024</p>
@@ -66,7 +66,7 @@ export default function Home() {
         </section>
 
         <section className={styles.skills}>
-          <h2>Technical Skills</h2>
+          <h2>🔧 Technical Skills</h2>
           <div className={styles.skillsGrid}>
             <div className={styles.skillCategory}>
               <h3>Languages</h3>

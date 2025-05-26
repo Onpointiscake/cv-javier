@@ -27,7 +27,7 @@ export default function Home() {
         <section className={styles.summary}>
           <h2>Profile</h2>
           <p>
-            Developer experienced in the MERN stack and with backend serverless services in the cloud.
+            Developer experienced in the MERN stack, using RESTful APIs with Express and MongoDB in several projects. Hands-on experience and knowledge of serverless services in the cloud.
           </p>
         </section>
 
@@ -70,7 +70,7 @@ export default function Home() {
           <div className={styles.skillsGrid}>
             <div className={styles.skillCategory}>
               <h3>Languages</h3>
-              <p>JavaScript, TypeScript, HTML, CSS, Java</p>
+              <p>JavaScript, TypeScript, HTML, CSS</p>
             </div>
             <div className={styles.skillCategory}>
               <h3>Frontend</h3>
@@ -102,8 +102,9 @@ export default function Home() {
             <a href="https://github.com/Onpointiscake/remindme" target="_blank" rel="noopener noreferrer" className={styles.projectLink}>
               @https://github.com/Onpointiscake/remindme
             </a>
-            <p>Developed an app that sends scheduled task reminders via email on specific dates.</p>
-            <p className={styles.stack}>Stack: React 18, Cloud Functions, Cloud Scheduler (cron), SQS, DocumentDB (GCP)</p>
+            <p>Developed an app which allows you to create tasks and get reminders
+            straight into your email inbox, the exact day it needs to be done.</p>
+            <p className={styles.stack}>Stack: React 18, Cloud Functions, Cloud Scheduler (Cron jobs), SQS (Pub/Sub architecture), DocumentDB (GCP)</p>
           </div>
 
           <div className={styles.projectItem}>
@@ -111,7 +112,9 @@ export default function Home() {
             <a href="https://github.com/Onpointiscake/mapit_siteit" target="_blank" rel="noopener noreferrer" className={styles.projectLink}>
               @https://github.com/Onpointiscake/mapit_siteit
             </a>
-            <p>Service for creating geolocated photo albums.</p>
+            <p>Created a storage service that offers users the ability to create galleries with photos
+            from their favorite trips. You can create albums, share them with friends, and get a
+            personalised map where you can see where have you gone all over the world</p>
             <p className={styles.stack}>Stack: React, AWS (Lambda, API Gateway, DynamoDB, Cognito, S3)</p>
           </div>
 
